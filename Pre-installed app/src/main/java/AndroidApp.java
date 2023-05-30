@@ -11,7 +11,7 @@ public class AndroidApp {
     String userName = System.getenv("LT_USERNAME") == null ?
             "shantanuw" : System.getenv("LT_USERNAME"); //Add username here
     String accessKey = System.getenv("LT_ACCESS_KEY") == null ?
-            "AO8Hw4rmWhqRRYIYw8I5zS3j8BKG6dywIPYysMH2OjGmlUayvB" : System.getenv("LT_ACCESS_KEY"); //Add accessKey here
+            "AddAccessKeyHere" : System.getenv("LT_ACCESS_KEY"); //Add accessKey here
 
     public String gridURL = "@mobile-hub.lambdatest.com/wd/hub";
 
